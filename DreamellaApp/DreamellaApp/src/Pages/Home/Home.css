@@ -100,7 +100,12 @@ list-style: none;
 }
 
 
-
+.productWrapper{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 30px;
+    /* background-color: red; */
+}
 
 
 
@@ -112,7 +117,9 @@ list-style: none;
     width: 400px;
     height: 570px;
     border-radius: 20px;
-    /* background-color: green; */
+    margin-top: 50px;
+    
+    background-color: #FEFCFC;
 }
 
 .imgWrapper{
@@ -121,6 +128,8 @@ list-style: none;
     background-color: grey;
 
 }
+
+
 
 .productName{
     color: #000;

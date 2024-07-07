@@ -4,6 +4,9 @@ import SearchBar from '../../Components/SearchBar/SearchBar'
 import "./Home.css"
 
 
+
+import Perfumes from './Data/AllPefume.json'
+
 function Home(){
     const productsLinks = ['All','Mini Perfumes', 'Oil Perfumes', 'Designers Perfumes', 'Arabian Perfumes', 'Deodorants', 'More']
     return(
@@ -19,6 +22,7 @@ function Home(){
                 </nav>
             </header>
             <main>
+             
                 <div className="HeroSection">
                     <div className="websiteInfo">
                         <div className="siteName">
@@ -37,22 +41,29 @@ function Home(){
                         </ul>
                 </div>
                 <div className="productWrapper">
-                    <div className="card">
-                        <div className="productFrame">
-                            <div className="imgWrapper">
-                                 <img src="" alt="" />
+                    {
+                        Perfumes.map((perfume)=>{
+                            return(
+                                <div className="card">
+                                <div className="productFrame">
+                                    <div className="imgWrapper">
+                                         <img src={perfume.image} alt="ik" />
+                                    </div>
+                                    <div className='productName'>
+                                        <p >{perfume.perfumeName}</p>
+                                    </div>
+                                    <div className='productPrice'>
+                                             <p>{perfume.price}</p> 
+                                    </div>
+                              
+                                    <button>Add to cart</button>
+                                </div>
+                                
                             </div>
-                            <div className='productName'>
-                                <p >Riggs Spray</p>
-                            </div>
-                            <div className='productPrice'>
-                                     <p>N3,500</p> 
-                            </div>
-                      
-                            <button>Add to cart</button>
-                        </div>
-                        
-                    </div>
+                            )
+                        })
+                    }
+
                 </div>
             </main>
         </div>
