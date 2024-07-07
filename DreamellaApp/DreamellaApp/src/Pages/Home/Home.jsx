@@ -5,6 +5,7 @@ import "./Home.css"
 
 
 function Home(){
+    const productsLinks = ['All','Mini Perfumes', 'Oil Perfumes', 'Designers Perfumes', 'Arabian Perfumes', 'Deodorants', 'More']
     return(
         <div className="home">
             <header>
@@ -27,7 +28,29 @@ function Home(){
                             <p>Enhancing confidence levels</p>
                         </div>
                     </div>
-                    <div className="productsNavigation">
+                </div>
+                <div className="productsNavigation">
+                        <ul className='productsLinkWrapper'>
+                            {productsLinks.map((product, index) => (
+                                <li>{product}</li>
+                            ))}
+                        </ul>
+                </div>
+                <div className="productWrapper">
+                    <div className="card">
+                        <div className="productFrame">
+                            <div className="imgWrapper">
+                                 <img src="" alt="" />
+                            </div>
+                            <div className='productName'>
+                                <p >Riggs Spray</p>
+                            </div>
+                            <div className='productPrice'>
+                                     <p>N3,500</p> 
+                            </div>
+                      
+                            <button>Add to cart</button>
+                        </div>
                         
                     </div>
                 </div>
