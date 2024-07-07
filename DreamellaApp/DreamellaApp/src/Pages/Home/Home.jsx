@@ -27,6 +27,9 @@ function Home(){
                             <p>Enhancing confidence levels</p>
                         </div>
                     </div>
+                    <div className="productsNavigation">
+                        
+                    </div>
                 </div>
             </main>
         </div>

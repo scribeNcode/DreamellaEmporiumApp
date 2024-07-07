@@ -37,7 +37,11 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    width: 100%;
+
 }
+
+
 
 .siteName p{
     color: #FFF;
@@ -58,3 +62,6 @@ font-weight: 400;
 line-height: normal;
 letter-spacing: 0.84px;
 }
+
+
+/* Products Navigation */
