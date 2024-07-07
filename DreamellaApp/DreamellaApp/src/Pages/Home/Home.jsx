@@ -2,6 +2,8 @@ import Logo from '../Home/assets/logo.svg'
 import CartIcon from '../Home/assets/cart.svg'
 import SearchBar from '../../Components/SearchBar/SearchBar'
 import "./Home.css"
+import imgg from './Images/IMG_20240326_145158_533 1.png'
+
 
 
 
@@ -44,10 +46,11 @@ function Home(){
                     {
                         Perfumes.map((perfume)=>{
                             return(
-                                <div className="card">
+                                <div className="card"  key={perfume.id}>
                                 <div className="productFrame">
                                     <div className="imgWrapper">
-                                         <img src={perfume.image} alt="ik" />
+                                         <img src={imgg} alt={perfume.perfumeName} />
+                                         {/* <img src={perfume.image} alt={perfume.perfumeName} /> */}
                                     </div>
                                     <div className='productName'>
                                         <p >{perfume.perfumeName}</p>

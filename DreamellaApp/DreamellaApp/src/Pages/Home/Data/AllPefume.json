@@ -1,56 +1,57 @@
+
 [
     {
         "id":1,
-        "image":"Images/IMG_20240326_145158_533 1.png",
+        "image":"images/IMG_20240326_145158_533 1.png",
         "perfumeName":"Riggs Spray",
         "price": "N3,500"
 
     },
     {
         "id":2,
-        "image":"Images/IMG_20240326_145158_533 1.png",
+      
         "perfumeName":"Riggs Spray",
         "price": "N3,500"
     },
     {
         "id":3,
-        "image":"Images/IMG_20240326_145158_533 1.png",
+        
         "perfumeName":"Riggs Spray",
         "price": "N3,500"
     },
     {
         "id":4,
-        "image":"Images/IMG_20240326_145158_533 1.png",
+      
         "perfumeName":"Riggs Spray",
         "price": "N3,500"
     },
     {
         "id":5,
-        "image":"Images/IMG_20240326_145158_533 1.png",
+ 
         "perfumeName":"Riggs Spray",
         "price": "N3,500"
     },
     {
         "id":6,
-        "image":"Images/IMG_20240326_145158_533 1.png",
+       
         "perfumeName":"Riggs Spray",
         "price": "N3,500"
     },
     {
         "id":7,
-        "image":"Images/IMG_20240326_145158_533 1.png",
+     
         "perfumeName":"Riggs Spray",
         "price": "N3,500"
     },
     {
         "id":8,
-        "image":"Images/IMG_20240326_145158_533 1.png",
+    
         "perfumeName":"Riggs Spray",
         "price": "N3,500"
     },
     {
         "id":9,
-        "image":"Images/IMG_20240326_145158_533 1.png",
+    
         "perfumeName":"Riggs Spray",
         "price": "N3,500"
     }
