@@ -44,6 +44,10 @@
         display: none;
     }
 
+    .mobileScreenNav{
+        display: block;
+    }
+
     .navbarWrapper{
         display: flex;
         background-color: green;
