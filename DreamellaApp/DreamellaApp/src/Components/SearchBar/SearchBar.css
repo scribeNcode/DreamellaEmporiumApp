@@ -1,5 +1,5 @@
 .searchWrapper{
-    width: 800px;
+    width: 600px;
     height: 60px;
     position: relative;
 }
@@ -20,12 +20,15 @@ padding-left: 30px;
     height: 100%;
     background-color: #FBF9F9;
     border-radius: 40px;
+    border: 0;
 }
 
 
 .searchIconContainer{
     position: absolute;
-    left: 742px;
-    top: 18px;
+    top: 14px;
+    left: 549.25px;
     
 }
+
+

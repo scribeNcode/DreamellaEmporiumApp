@@ -1,0 +1,135 @@
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 455px;
+    margin-top: 54px;
+    background-color: #F09A1F;
+}
+
+
+.footerContentWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1317px;
+}
+
+.footerAddress{
+    color: #FFF;
+font-family: Dubai;
+font-size: 28px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -1.4px;
+}
+
+
+
+.footerTitle{
+    letter-spacing: -1.4px;
+    margin-bottom: 13px;
+}
+
+
+
+.phonNumDiv object{
+    margin-left: 0;
+}
+
+.phonNumDiv p{
+    padding-left: 0;
+    display: inline;
+    margin-left: 10px;
+}
+
+.address{
+    /* width: 517px; */
+}
+
+.addressIcon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.address p{
+    display: inline;
+}
+
+.footerForm{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 517px;
+}
+
+.footerForm button{
+    width: 171px;
+    height: 50px;
+    display: flex;
+justify-content: center;
+align-items: center;
+border-radius: 15px;
+background: #9E9D9C;
+box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+
+color: #FFF;
+font-family: Dubai;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+margin-left: 0;
+margin-top: 21px;
+margin-bottom: 21px;
+}
+
+.footerForm p{
+    margin-left: 0;
+}
+
+.footerTitle{
+    color: #FFF;
+    font-family: Dubai;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -1.4px;
+}
+
+.footerForm input{
+    width: 100%;
+    height: 60px;
+    border-radius: 10px;
+    border: 0;
+    outline: none;
+}
+
+.footerForm input::placeholder{
+    color: #C4C4C4;
+font-family: Dubai;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+padding-left: 30px;
+}
+
+.footerOthers{
+    display: flex;
+    gap: 30px;
+    margin-left: 0;
+    color: #FFF;
+font-family: Dubai;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-decoration-line: underline;
+}

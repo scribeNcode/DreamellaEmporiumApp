@@ -1,0 +1,66 @@
+.mobileScreenNav{
+    display: none;
+}
+
+.largeScreenNav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.logo{
+   margin-left: 1px;
+}
+
+.searchBarContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+   /* margin-left: 543px; */
+}
+
+.cartIcon{
+    margin-right: 42px;
+}
+
+
+/* .CartWrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 88.68px;
+    margin-right: 40px;
+
+} */
+
+
+
+
+/* Mobile Screen */
+@media screen and (max-width: 425px){
+    .largeScreenNav{
+        display: none;
+    }
+
+    .navbarWrapper{
+        display: flex;
+        background-color: green;
+        margin-left: 17px;
+        margin-right: 17px;
+    }
+
+    .iconandCartWrapper{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+
+
+}
+
