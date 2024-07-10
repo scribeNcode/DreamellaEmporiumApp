@@ -1,4 +1,5 @@
 import { useParams } from "react-router-dom";
+import { Link } from "react-router-dom";
 import perfumes from "../../AllPefume.json";
 import minus from "./assets/minus.svg";
 import plus from "./assets/plus.svg";
@@ -17,6 +18,20 @@ function Cart() {
 
   return (
     <div className="cartPageWrapperr">
+        <div className="progressBar">
+            <div className="progressIcons" >
+                <p className="FirstprogressNumIcon">1</p>
+              <div className="stroke"></div>
+              <p className="progressNumIcon">2</p>
+              <div className="stroke"></div>
+              <p className="progressNumIcon">3</p>
+            </div>
+            <div className="progressShipingText">
+                <p className="progresscart">Cart</p>
+                <p className="progressShiping">Shipping</p>
+                <p>Payment</p>
+            </div>
+        </div>
        <div className="sectionOne">
       <div className="cartImage">
         <div className="cartImageWrapper">
@@ -58,6 +73,7 @@ function Cart() {
         <div className="shippingCallToAction">
             <button>Continue Shopping</button>
             <button className="checkoutButton">Proceed to Checkout</button>
+            
         </div>
     </div>
     </div>
