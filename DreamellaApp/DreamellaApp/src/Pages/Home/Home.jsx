@@ -21,6 +21,7 @@ function Home() {
   ];
   return (
     <div className="home">
+        
       <Header />
       {/* <header>
                 <nav className='navbar'>
@@ -54,8 +55,9 @@ function Home() {
           {perfumes.map((perfume) => {
             return (
               <div className="card" key={perfume.id}>
-                <Link to={`/perfume/${perfume.id}`}>
+               
                   <div className="productFrame">
+                  <Link to={`/perfume/${perfume.id}`}>
                     <div className="imgWrapper">
                       {/* <img src={imgg} alt={perfume.perfumeName} />
                                         //  <img src={perfume.image} alt={perfume.perfumeName} /> */}
@@ -67,10 +69,10 @@ function Home() {
                     <div className="productPrice">
                       <p>{perfume.price}</p>
                     </div>
-
-                    <button>Add to cart</button>
+                    </Link>
+                    <Link to={`/cart/${perfume.id}`}><button>Add to cart</button></Link>
                   </div>
-                </Link>
+               
               </div>
             );
           })}

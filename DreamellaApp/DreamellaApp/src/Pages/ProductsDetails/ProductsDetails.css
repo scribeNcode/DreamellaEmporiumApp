@@ -99,6 +99,7 @@ text-decoration-line: underline;
   .setNumDiv{
  display: flex;
   margin-bottom: 10px;
+  width: fit-content;
     /* background-color: red; */
   }
 
@@ -122,11 +123,7 @@ font-weight: 500;
 line-height: normal;
   }
 
-  /* .minusDiv, .addition{
-    width: 60px;
-    height: 50px;
-    border: 1px solid black;
-  } */
+
 
   .counter{
     display: flex;
